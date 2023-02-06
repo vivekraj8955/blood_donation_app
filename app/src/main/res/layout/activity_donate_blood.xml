@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".donate_blood">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/blood">
+
+</ImageView>
+    <EditText
+        android:id="@+id/name"
+        android:background="#DFF1D0"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#F0C2BBBB"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="NAME"
+        android:textSize="24dp">
+    </EditText>
+    <EditText
+        android:background="#DFF1D0"
+        android:textColorHint="#F0C2BBBB"
+        android:layout_marginTop="20dp"
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="CONTACT NO"
+        android:textSize="24dp">
+    </EditText>
+    <EditText
+        android:background="#DFF1D0"
+        android:layout_marginTop="20dp"
+        android:id="@+id/age"
+        android:textColorHint="#F0C2BBBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="AGE"
+        android:textSize="24dp">
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="#DFF1D0"
+        android:id="@+id/bloodgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textColorHint="#F0C2BBBB"
+        android:hint="BLOOD GROUP"
+        android:textSize="24dp">
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/address"
+        android:background="#DFF1D0"
+        android:textColorHint="#F0C2BBBB"
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="ADDRESS"
+        android:textSize="24dp">
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#D42323"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="SAVE"
+        android:id="@+id/save">
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>

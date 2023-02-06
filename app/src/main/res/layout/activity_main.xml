@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:gravity="center"
+           android:id="@+id/donate"
+           android:text="DONATE BLOOD"
+           android:textStyle="bold"
+           android:textSize="36dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginBottom="5dp"
+           android:background="#00796B"
+           android:layout_weight="1">
+       </TextView>
+       <TextView
+           android:background="#E6E28C4B"
+           android:id="@+id/search"
+           android:gravity="center"
+           android:text="FIND DONAR"
+           android:textStyle="bold"
+           android:textSize="36dp"
+           android:layout_marginTop="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+       </TextView>
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>
